@@ -19,37 +19,6 @@ pause
 
 rem Clear the screen of previous commands
 cls
-
-rem Set the graphics settings to low with a registery tweak.
-
-rem Clear the screen of previous commands
-cls
-
-echo Setting the graphics quality to low please wait
-reg import lowgraphics.reg
-timeout /t 2 /nobreak > NUL
-
-rem Clear the screen of previous commands
-cls
-
-rem Let the users know that we changed the graphics for them
-
-rem Clear the screen of previous commands
-cls
-
-echo Done setting the graphics preset to fastest.
-timeout /t 2 /nobreak > NUL
-
-
-rem Wait for user input
-
-rem Clear the screen of previous commands
-cls
-
-pause
-
-rem Clear the screen of previous commands
-cls
  
 echo There are graphics drivers included in this folder/zip which are located in
 echo %cd%\win64_154702.4815
