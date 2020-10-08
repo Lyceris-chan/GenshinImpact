@@ -42,8 +42,8 @@ start "" "%gamelocation%"\GenshinImpact.exe -screen-width 800 -screen-height 600
 rem Wait 30 seconds or untill a user presses a key
 timeout /t 30
 
-rem Set the CPU priority to realtime
-wmic process where name="GenshinImpact.exe" CALL setpriority "256"
+rem Set the CPU priority to high
+wmic process where name="GenshinImpact.exe" CALL setpriority "128"
 
 rem Wait for user input
 pause
