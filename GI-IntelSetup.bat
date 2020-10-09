@@ -10,7 +10,8 @@ rem Clear the screen of previous commands
 cls
 
 rem Warn the users to continue on their own risk
-echo Hey user this script will make changes to your registery and will guide you on how to install an older driver which should help fix the crashes / freezes in the popular gacha game Genshin Impact.
+echo Hey user this script will guide you through the steps needed on how to install an older driver which should help fix the crashes / freezes in the popular gacha game Genshin Impact.
+echo.
 echo Continue at your own risk.
 echo. 
 
