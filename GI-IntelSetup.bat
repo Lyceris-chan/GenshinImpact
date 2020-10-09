@@ -21,7 +21,7 @@ rem Clear the screen of previous commands
 cls
  
 echo There are graphics drivers included in this folder/zip which are located in
-echo %cd%\win64_154702.4815
+echo %cd%\win64_24.20.100.6194
 echo.
 echo These drivers can be used on the following Intel(R) GPU's:
 echo.
@@ -46,7 +46,7 @@ cls
 rem Tell the users how to install the driver
 echo The driver can be found in 
 echo.
-echo %cd%\win64_154702.4815\Graphics
+echo %cd%\win64_24.20.100.6194\Graphics
 echo.
 echo Press Windows key + r and a window will pop up called run.
 echo.
@@ -61,7 +61,7 @@ echo.
 echo Click on Let me pick from a list of available drivers on my computer.
 echo.
 echo Click on Have disk... and navigate to
-echo %cd%\win64_154702.4815\Graphics
+echo %cd%\win64_24.20.100.6194\Graphics
 echo.
 echo And click on igdlh64.inf (it might now show the inf extension just click on the file)
 echo.
