@@ -1,6 +1,6 @@
 @echo off
 rem Set the title
-title Lacia's GenshinImpact launcher script
+title GenshinImpact launcher script for Intel GPU users
 
 rem Clear the screen of previous commands
 cls
