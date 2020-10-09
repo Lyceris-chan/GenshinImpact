@@ -65,11 +65,6 @@ call :getInput
 call :gameExist
 call :saveFile
 
-rem Let the user enter the location where the game is installed
-echo Example: D:\Program Files\Genshin Impact\Genshin Impact Game
-set /p gamelocation="Enter the location where the game is installed: "
-
-
 rem Starting game with [-force-d3d11 -screen-width 800 -screen-height 600 -screen-quality lowest] This will run the game on its lowest graphical preset allong with running it in 800x600
 echo Starting the game...
 start "" "%gamelocation%"\GenshinImpact.exe -screen-width 800 -screen-height 600 -force-d3d11 -screen-quality lowest
