@@ -169,7 +169,7 @@ if "%i%"=="7" (
 )
 if "%i%"=="0" (
 	set "i="
-	goto confirmation
+	goto resolution_Selection
 ) else (
 	set "i="
 	goto resolution_Selection
