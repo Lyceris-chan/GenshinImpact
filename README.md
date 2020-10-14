@@ -9,6 +9,9 @@ Ad astra abyssoque! traveler.
 
 There will be a YouTube video covering this soon.
 
+# Download the script
+You can download the script here: https://github.com/Lyceris-chan/GenshinImpact/archive/master.zip
+
 
 # Errors / Issues
 
