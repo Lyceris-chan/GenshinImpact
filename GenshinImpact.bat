@@ -14,7 +14,8 @@ goto check_Permissions
 :check_Permissions
     echo This script requires Administartor rights to adjust the process priority of the game, Checking for admin rights...
 
-    net session >nul 2>&1
+	fsutil dirty query %systemdrive% >nul
+
     if %errorLevel%==0 (
         goto :information
     ) else (
@@ -24,13 +25,11 @@ goto check_Permissions
     pause >nul
 
 :elevate_Permissions
-rem Credit: https://stackoverflow.com/a/25756858
-
-rem Save current directory which lets us come back to our working directory
-pushd %~dp0
-
-net file 1>nul 2>nul && goto :information || powershell -ex unrestricted -Command "Start-Process -Verb RunAs -FilePath '%comspec%' -ArgumentList '/c %~fnx0 %*'"
-goto :eof
+echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\getadmin.vbs"
+echo UAC.ShellExecute "cmd.exe", "/c %~s0 %~1", "", "runas", 1 >> "%temp%\getadmin.vbs"
+"%temp%\getadmin.vbs"
+del "%temp%\getadmin.vbs"
+exit /B`
 
 
 rem Clear the screen and inform the users about what the script does
