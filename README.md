@@ -17,7 +17,7 @@ You can download the script here: https://github.com/Lyceris-chan/GenshinImpact/
 
 While I made sure to test the script thoroughly on my own and with the help of other players in the Discord server there is always a possibility of me missing a small detail,
 
-In that case, I would like to ask you to join our discord server over at https://discord.com/invite/aX8KRGX and to let me know what issue you experience or just to talk with our fellow intel users.
+In that case, I would like to ask you to join our discord server over at https://discord.gg/FS6cF5HAbN and to let me know what issue you experience or just to talk with our fellow intel users.
 
 
 # Credits 
