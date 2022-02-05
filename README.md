@@ -5,13 +5,12 @@ This repo contains a script that aims to apply most of the community found fixes
 
 Ad astra abyssoque! traveler.
 
-# Instructions - Regarding the script - Older drivers
-
-There will be a YouTube video covering this soon.
-
 # Download the script
 You can download the script here: https://github.com/Lyceris-chan/GenshinImpact/archive/master.zip
 
+# Notes
+
+It might be necessary to place the script on your desktop, since some people had issues when the script was run from a directory with spaces in it.
 
 # Errors / Issues
 
